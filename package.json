@@ -1,6 +1,6 @@
 {
   "name": "create-my-ts-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Typescript project builder CLI",
   "main": "main.js",
   "type": "module",
