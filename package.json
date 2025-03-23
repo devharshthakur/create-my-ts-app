@@ -1,0 +1,32 @@
+{
+  "name": "ts-create-app",
+  "version": "1.0.0",
+  "description": "A Typescript project builder CLI",
+  "main": "./build/main.js",
+  "type": "module",
+  "bin": {
+    "create-ts-app": "./build/main.js"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc && chmod +x build/main.js",
+    "format": "prettier --write \"**/*.{ts,js,json,md}\"",
+    "start": "node build/main.js"
+  },
+  "keywords": [],
+  "author": "Harsh Thakur",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "execa": "^9.5.2",
+    "inquirer": "^12.5.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.13.11",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}
