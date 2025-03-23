@@ -1,11 +1,11 @@
 {
-  "name": "ts-create-app",
+  "name": "ht-create-tsapp",
   "version": "1.0.0",
   "description": "A Typescript project builder CLI",
   "main": "./build/main.js",
   "type": "module",
   "bin": {
-    "create-ts-app": "./build/main.js"
+    "ht-create-tsapp": "./build/main.js"
   },
   "scripts": {
     "dev": "tsc --watch",
