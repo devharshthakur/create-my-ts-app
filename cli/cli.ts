@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { run } from '../scripts/project.js';
 
 function runCLI(): void {

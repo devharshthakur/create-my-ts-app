@@ -1,8 +1,8 @@
-# 📦 ht-create-ts-app
+# 📦 ht-create-tsapp
 
 A powerful CLI tool for scaffolding TypeScript projects with a predefined structure. Get your next TypeScript project up and running in seconds!
 
-[![npm version](https://img.shields.io/npm/v/ts-create-app.svg)](https://www.npmjs.com/package/ts-create-app)
+[![npm version](https://img.shields.io/npm/v/ht-create-tsapp.svg)](https://www.npmjs.com/package/ht-create-tsapp)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## ✨ Features
@@ -18,13 +18,13 @@ A powerful CLI tool for scaffolding TypeScript projects with a predefined struct
 You can install globally:
 
 ```bash
-npm install -g ts-create-app
+npm install -g ht-create-tsapp
 ```
 
 Or use it directly with npx:
 
 ```bash
-npx ts-create-app
+npx ht-create-tsapp
 ```
 
 ## 📋 Usage
@@ -32,7 +32,7 @@ npx ts-create-app
 Run the command and follow the interactive prompts:
 
 ```bash
-ts-create-app
+ht-create-tsapp
 ```
 
 The CLI will guide you through setting up your project by asking for:
@@ -116,4 +116,3 @@ This project is licensed under the ISC License - see the LICENSE file for detail
 ---
 
 <p align="center">Made with ❤️ for TypeScript developers</p>
-
