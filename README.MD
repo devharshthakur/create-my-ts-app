@@ -1,4 +1,4 @@
-# 📦 ts-create-app
+# 📦 ht-create-ts-app
 
 A powerful CLI tool for scaffolding TypeScript projects with a predefined structure. Get your next TypeScript project up and running in seconds!
 
