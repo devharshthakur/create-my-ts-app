@@ -36,15 +36,21 @@ export const TSCONFIG_JSON = `{
 export const APP_TS = `// app.ts - Main application logic
 export function App():void {
   /** Your main code*/
-  console.log("Code is running successfully");
+  function helloWorld():void {
+     console.log("Code is running successfully");
+  }
+     helloWorld();
 }
 `;
 
-export const MAIN_TS = `// main.ts - Entry point
-import { App } from './app.js';
-
-function main() {
-  App();
+export const MAIN_TS = `
+/** main.ts - Entry point of the codebase */
+function main(): void {
+  /** Your main code */
+  function helloWorld(): void {
+     console.log("Code is running successfully");
+  }
+  helloWorld();
 }
 
 main();
@@ -56,7 +62,7 @@ export const delay = (ms: number): Promise<void> => new Promise(resolve => setTi
 
 export const LIB_INDEX_TS = `// lib/index.ts
 export class Library {
-  public process(data: any): any {
+  public process<T>(data: T): T {
     return data;
   }
 }

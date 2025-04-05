@@ -13,10 +13,10 @@ export async function initializeGit(projectPath: string) {
 
     // Create .gitignore
     const gitignore = `node_modules/
-dist/
-.DS_Store
-*.log
-`;
+    dist/
+    .DS_Store
+    *.log
+    `;
 
     await createFile(path.join(projectPath, '.gitignore'), gitignore);
   } catch (error) {

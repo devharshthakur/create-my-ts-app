@@ -1,6 +1,6 @@
 {
   "name": "ht-create-tsapp",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "A Typescript project builder CLI",
   "main": "./build/main.js",
   "type": "module",
@@ -11,7 +11,8 @@
     "dev": "tsc --watch",
     "build": "tsc && chmod +x build/main.js",
     "format": "prettier --write \"**/*.{ts,js,json,md}\"",
-    "start": "node build/main.js"
+    "start": "pnpm build && node build/main.js",
+    "clean": "rimraf ./build"
   },
   "keywords": [],
   "author": "Harsh Thakur",
@@ -27,6 +28,7 @@
     "@types/inquirer": "^9.0.7",
     "@types/node": "^22.13.11",
     "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
     "typescript": "^5.8.2"
   }
 }
